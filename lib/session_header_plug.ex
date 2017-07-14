@@ -31,7 +31,7 @@ defmodule SessionHeaderPlug do
 
   @behaviour Plug
 
-  @type config :: %{key: String.t, store: module, store_config: keyword}
+  @type config :: %{key: String.t, store: module, store_config: any}
 
   @typep conn :: Plug.Conn.t
   @typep sid :: Plug.Session.Store.sid

@@ -23,7 +23,7 @@ mix.exs:
 ```elixir
 defp deps do
   [
-    {:session_header_plug, "~> 0.1.0"},
+    {:session_header_plug, "~> 0.1.1"},
     {:session_server_store, "~> 0.1.0"},
   ]
 end

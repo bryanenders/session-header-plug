@@ -12,7 +12,7 @@ defmodule SessionHeaderPlug.Mixfile do
       name: "SessionHeaderPlug",
       package: package(),
       start_permanent: Mix.env === :prod,
-      version: "0.1.0",
+      version: "0.1.1",
     ]
   end
 
